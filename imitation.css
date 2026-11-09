@@ -6,7 +6,33 @@
         width: 500px;
         height: 750px;
       }
-.toptext {
-  diplay-flex;
+.top-text-left {
+  display: flex;
   justify-content: center;
+  font-family: "Roboto Condensed", sans-serif;
+  color:white;
+  width: 32%;
+
 }
+.top-text-right {
+  display: flex;
+    justify-content: center;
+  font-family: "Roboto Condensed", sans-serif;
+  color:black;
+  
+}
+
+.top {
+  display: flex;
+  gap: 140px;
+  font-size: 10px;
+  
+}
+
+p {
+  font-family: "Roboto Condensed", sans-serif;
+}
+/* AI-assisted addition — GitHub Copilot
+   Student prompt: "For every <p> in imitation.html use the google font Roboto Condensed." */
+
+/* End AI-assisted addition */
