@@ -1,1 +1,58 @@
 /* CSS for your imitation here */
+.background-image {
+  background-image: url(image/background.png);
+  background-size: cover;
+  background-position: center;
+  width: 500px;
+  height: 750px;
+}
+
+.top-text-left {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto Condensed", sans-serif;
+  color: white;
+  width: 32%;
+
+}
+
+.top-text-right {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto Condensed", sans-serif;
+  color: black;
+
+}
+
+.top {
+  display: flex;
+  gap: 140px;
+  font-size: 10px;
+
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  font-family: "Space Grotesk", sans-serif;
+  color: rgb(255, 255, 255);
+  margin-top: 570px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+  font-family: "Space Grotesk", sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: -230px;
+  font-size: 20px;
+}
+
+
+/* AI-assisted addition — GitHub Copilot
+   Student prompt: "For every <p> in imitation.html use the google font Roboto Condensed." */
+
+/* End AI-assisted addition */
