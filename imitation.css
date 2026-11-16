@@ -13,7 +13,8 @@
   font-family: "Roboto Condensed", sans-serif;
   color: white;
   width: 32%;
-
+  white-space: nowrap;
+  margin-left: 35px;
 }
 
 .top-text-right {
@@ -51,7 +52,27 @@
   font-size: 20px;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
 
+}
+
+.center img {
+  height: 15px;
+  margin-top: 10px;
+}
+
+.top-logo {
+  /* Nike swish at the top */
+  height: 15px;
+}
+.top-logo-left {
+  width: 30px;
+  height: auto;
+  vertical-align: middle;
+  margin-left: 8px;
+}
 /* AI-assisted addition — GitHub Copilot
    Student prompt: "For every <p> in imitation.html use the google font Roboto Condensed." */
 
