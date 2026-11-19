@@ -11,10 +11,11 @@
   display: flex;
   justify-content: center;
   font-family: "Roboto Condensed", sans-serif;
+  padding-left: 15px;
   color: white;
-  width: 32%;
+  
   white-space: nowrap;
-  margin-left: 35px;
+ 
   align-items: center
 }
 
@@ -24,12 +25,15 @@
   font-family: "Roboto Condensed", sans-serif;
   color: black;
   
-
+    white-space: nowrap;
+    margin-left: 35px;
+    align-items: center;
+    padding-right: px;
 }
 
 .top {
   display: flex;
-  gap: 100px;
+  justify-content: space-between;
   font-size: 10px;
 
 }
@@ -61,17 +65,17 @@
 }
 
 .center img {
-  height: 15px;
+  height: 8px;
   margin-top: 10px;
 }
 
 .top-logo {
   /* Nike swish at the top */
-  height: 15px;
+  height: 12px;
 }
 .top-logo-left {
   
-  height: 15px;
+  height: 12px;
   vertical-align: middle;
   margin-left: 8px;
 }
