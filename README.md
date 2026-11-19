@@ -5,7 +5,6 @@
 Open your own assignment repository in Codespaces (or VS Code). In the terminal:
 
 ```sh
-npm start
 ```
 
 Open port **5500** from the Ports tab in Codespaces, or visit http://localhost:5500 locally.
